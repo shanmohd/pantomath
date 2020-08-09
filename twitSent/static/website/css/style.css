@@ -1,0 +1,27 @@
+#inputDiv input{
+  float:left;
+}
+body{
+  background-color: #120130;
+ }
+
+.parent {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+  transform: translateY(100%);
+}
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+
+.alert {
+  padding:5px !important;
+}
